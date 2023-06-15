@@ -3,7 +3,8 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    height:100vh;
+    background-color: rgb(26, 26, 27);
+    width: 100vw;
 }
 
 header {
@@ -14,23 +15,12 @@ header {
     padding: 10px;
     text-align: center;
     box-shadow: 2px 5px 15px rgba(65, 102, 249, 0.3);
+    padding: 10px;
 }
 
-main {
-    flex: 1;
-    padding: 20px;
-}
-
-.movie-container {
+.movies-container {
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    
-}
-
-.whole-page{
-    display: flex;
+    flex-wrap: wrap;
     background-color: rgb(26, 26, 27);
-    width: 100vw;
-    height: 100vh;
+    
 }
