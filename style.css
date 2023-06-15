@@ -1,1 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
 
+header {
+    text-align: center;
+    color:white;
+    background-color: rgb(26,26,27);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 5px 15px rgba(65, 102, 249, 0.3);
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.movie-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.whole-page{
+    display: flex;
+    background-color: rgb(26, 26, 27);
+    width: 100vw;
+    height: 100vh;
+}
