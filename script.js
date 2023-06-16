@@ -20,7 +20,7 @@ const fetchData = async () => {
       movieData.results.push(...data.results);
     }
 
-    displayMovies(movieData);
+    displayMovies(data);
   } catch (error) {
     // Handle any errors that occur during the request
     console.log('Error:', error);
@@ -86,7 +86,7 @@ const loadMoreMovies = async () => {
       movieData.results.push(...data.results);
     }
 
-    displayMovies(movieData);
+    displayMovies(data);
   } catch (error) {
     console.log('Error:', error);
   }
