@@ -1,4 +1,5 @@
 body {
+    /* color:white; */
     margin: 0;
     padding: 0;
     display: flex;
@@ -19,8 +20,30 @@ header {
 }
 
 .movies-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    /* flex-wrap: wrap; */
     background-color: rgb(26, 26, 27);
-    
+    padding: 3px;
+}
+
+img{
+    display: flex;
+
+    box-shadow: 2px 5px 15px rgba(65, 102, 249, 0.3);
+    border-radius: 5px;
+}
+
+.search-control{
+     display: flex;
+     gap: 2px;
+     width: 80%;
+     margin: auto;
+
+}
+
+.search-control > input{
+    /* width: 80%; */
+    flex-grow: 100;
 }
