@@ -13,11 +13,15 @@
     <h1>Flixster</h1>
     <div>
         <form>
-            <input id="search-input" type="text" placeholder="Search Movie">
-            <button id="search-icon" >
-                <span class="material-symbols-outlined">
+            <div class="search-control">
+               <input id="search-input" type="text" placeholder="Search Movie" >  
+                <button id="search-icon" >
+                <span style="font-size: small"  class="material-symbols-outlined"> close
                 </span>
             </button>
+            </div>
+            
+            
             
         </form>
         <button id="search-btn" type="submit">GO</button>
@@ -25,7 +29,7 @@
     
 </header>
 <body>
-    <grid id="movies-grid" class="movies-container"></grid>
+    <div id="movies-grid" class="movies-container" ></div>
     <button id="load-more-movies-btn">Load More Movies</button>
   <script src="script.js"></script>
 
