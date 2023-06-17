@@ -7,7 +7,7 @@ const closeSearchButton = document.getElementById('search-icon');
 
 // Fetch data from the API using async/await
 const fetchData = async () => {
-  const apiUrl = `https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}&page=${moviePage}`;
+  const apiUrl = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&page=${moviePage}`;
   try {
     const response = await fetch(apiUrl);
     const data = await response.json();
@@ -46,6 +46,7 @@ function displayMovies(data) {
     movieTitle.className = 'movie-title';
     const moviePoster = document.createElement('img');
     moviePoster.className = 'movie-poster';
+    moviePoster.alt = "Movie Poster";
     const movieVotes = document.createElement('h3');
     movieVotes.className = 'movie-votes';
 
