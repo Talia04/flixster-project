@@ -5,7 +5,7 @@ Submitted by: **Tanya Chisepo**
 
 Estimated time spent: **~30** hours spent in total
 
-Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
+Deployed Application (optional): [Flixster Deployed Site](https://talia04.github.io/flixster-project/)
 
 ### Application Features
 
