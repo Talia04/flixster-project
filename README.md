@@ -3,7 +3,7 @@
 
 Submitted by: **Tanya Chisepo**
 
-Estimated time spent: **~24** hours spent in total
+Estimated time spent: **~30** hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
