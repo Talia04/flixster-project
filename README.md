@@ -3,7 +3,7 @@
 
 Submitted by: **Tanya Chisepo**
 
-Estimated time spent: **~24** hours spent in total
+Estimated time spent: **~30** hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
@@ -43,7 +43,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
-`ADD_EMBEDDED_CODE_HERE`
+
 ![Flixster Walkthrough]([https://github.com/Talia04/flixster-project/raw/main/FlixsterWalkthrough.gif](https://github.com/Talia04/flixster-project/blob/main/FlixsterWalkthrough.gif?raw=true))
 
 ### Reflection
