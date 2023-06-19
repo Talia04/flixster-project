@@ -35,14 +35,13 @@ Deployed Application (optional): [Flixster Deployed Site](https://talia04.github
 
 - [x] Deploy website using GitHub Pages.
 - [x] Allow user to view more details about a movie within a popup.
-- [ ] Improve the user experience through CSS & animation.
-- [ ] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
+- [x] Improve the user experience through CSS & animation.
+- [x] Allow movie video trailers to be played using [embedded YouTube](https://support.google.com/youtube/answer/171780?hl=en)
 - [ ] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthrough Video
 
-<img src="https://github.com/Talia04/flixster-project/raw/main/FlixsterWalkthrough.gif" alt="Flixster Walkthrough" width="100%">
-
+<img src="https://github.com/Talia04/flixster-project#:~:text=FlixsterWalkthrough.mp4" alt="Flixster Walkthrough" width="100%">
 
 ### Reflection
 
