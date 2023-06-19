@@ -41,7 +41,7 @@ Deployed Application (optional): [Flixster Deployed Site](https://talia04.github
 
 ### Walkthrough Video
 
-<img src="https://github.com/Talia04/flixster-project#:~:text=FlixsterWalkthrough.mp4" alt="Flixster Walkthrough" width="100%">
+<img src="https://github.com/Talia04/flixster-project/blob/main/Flixster-Walkthrough.gif" width="100%">
 
 ### Reflection
 
