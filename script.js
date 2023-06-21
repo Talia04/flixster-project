@@ -51,9 +51,10 @@ function displayMovies(data) {
     //   movieDescription.className = 'movie-description';
   
       // Set the movie details to the created elements
+      movieVotes.textContent = '⭐️       ' + votes;
       movieTitle.textContent = title;
       moviePoster.src = baseUrl + 'w300' + poster;
-      movieVotes.textContent = '⭐️       ' + votes;
+  
     //   movieDescription.textContent = description;
   
       // Append the movie info to the movie card
@@ -225,11 +226,6 @@ async function displayMovieDescription(title, description, selectedMovieElement)
   popUpContainer.appendChild(movieDescriptionElement);
   popUpContainer.innerHTML += movieTrailerUrl;
   popUpContainer.appendChild(exitButton);
-
-//   // Position the pop-up window below the selected movie
-//   const moviePosition = selectedMovieElement.getBoundingClientRect();
-//   popUpContainer.style.top = `${moviePosition.bottom}px`;
-//   popUpContainer.style.left = `${moviePosition.left}px`;
 
   document.body.appendChild(popUpContainer);
 }

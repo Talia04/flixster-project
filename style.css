@@ -45,61 +45,6 @@ body {
     transform: scale(1.1);
   }
   
-  /* .movie-card .movie-description {
-    display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    font-size: 20px;
-    line-height: 1.6;
-    text-align: center;
-    z-index: 10;
-    padding: 10px;
-  }
-  
-  .movie-card:hover .movie-description {
-    display: block;
-    position: absolute;
-    bottom: 100%;
-    transform: translate(-50%);
-  }
-  
-  .movie-card .movie-description h1 {
-    font-size: 30px;
-    margin-top: 0;
-  }
-  
-  .movie-card .movie-description p {
-    margin-bottom: 0;
-  } */
-  
-  /* .movie-card .movie-description .close-button {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
-  .movie-card .movie-description .close-button:hover {
-    color: lightgray;
-  }
-  
-  .movie-card .movie-description .trailer-container {
-    position: relative;
-    padding-bottom: 56.25%; 
-    height: 0;
-  }
-  
-  .movie-card .movie-description .trailer-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  } */
-  
   .search-control {
     display: flex;
     gap: 5px;
